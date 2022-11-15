@@ -51,52 +51,53 @@ public class CartDetails extends AppCompatActivity {
 
     String city_str = getIntent().getStringExtra("putextra_city");
 
-    if (city_str.equals("Roemah Pohon")) {
-      city.setText("Roemah Pohon");
-      lokasi.setText("Batu Besar");
-      attr1name.setText("Sun Moffie");
-      attr2name.setText("Roemah Pohon");
-      attr1des.setText("Nongsa");
-      attr2des.setText("Roemah Pohon is a historical building");
+    if (city_str.equals("PANBIL MALL")) {
+      city.setText("Panbil Mall");
+      lokasi.setText("Muka Kuning");
+      attr1name.setText("Panbil Mall");
+      attr2name.setText("Kepri Mall");
+      attr1des.setText("Sei Beduk");
+      attr2des.setText("Panbil Mall is the one mall in the industry area Muka Kuning");
       attr1img.setImageResource(R.drawable.amatipng);
       attr2img.setImageResource(R.drawable.amatipng);
-      food1name.setText("Rice Bowl");
-      food2name.setText("Bhalla");
-      food1des.setText("as");
-      food2des.setText("A popular street food");
+      food1name.setText("Roti O");
+      food2name.setText("KFC");
+      food1des.setText("Food Court");
+      food2des.setText("Sate Madura");
       food1img.setImageResource(R.drawable.amatipng);
       food2img.setImageResource(R.drawable.amatipng);
-      description.setText("Tempat Bernuansa Alam");
+      description.setText("Mall elite harga dikit");
       location =
           "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15956.045089018658!2d104.1284838!3d1.1524394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73ab5d93ef9c57fe!2sRoemah%20Pohon!5e0!3m2!1sen!2sid!4v1665840580121!5m2!1sen!2sid";
       timetovisit.setText("October to Mwarch");
       duration.setText("Location");
       mainimage.setImageResource(R.drawable.roemah_pohon);
-      rating.setText("");
+      rating.setText("4.5 \n350 Reviews");
+      pricerange.setText("50-100 K");
     }
-    if (city_str.equals("Cetro")) {
-      city.setText("Cetro");
-      attr1name.setText("Golden Temple");
-      attr2name.setText("Jallianwala Bagh");
-      attr1des.setText("Shri Harmandir Sahib, a very popular temple.");
-      attr2des.setText("Jallianwala Bagh is a historic garden.");
+    if (city_str.equals("KEPRI MALL")) {
+      city.setText("Kepri Mall");
+      lokasi.setText("Batam Centre");
+      attr1name.setText("Kepri Mall");
+      attr2name.setText("Panbil Mall");
+      attr1des.setText("Batam Centre");
+      attr2des.setText("Mall in the strategic location of the city");
       attr1img.setImageResource(R.drawable.amatipng);
       attr2img.setImageResource(R.drawable.amatipng);
-      food1name.setText("Aloo Paratha");
-      food2name.setText("Sarson ka Saag");
-      food1des.setText("Tasty dish with lot of butter.");
-      food2des.setText("A very popular dish mainly eaten with makke ki roti");
+      food1name.setText("JCO");
+      food2name.setText("ROTI O");
+      food1des.setText("KFC");
+      food2des.setText("Masakan Padang SEDERHANA");
       food1img.setImageResource(R.drawable.amatipng);
       food2img.setImageResource(R.drawable.amatipng);
-      description.setText(
-          "A very popular city among tourists. Famous attractions of , Wagah Border etc.");
+      description.setText("Mall yang dekat kemana-mana ");
       location =
-          "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15956.045089018658!2d104.1284838!3d1.1524394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73ab5d93ef9c57fe!2sRoemah%20Pohon!5e0!3m2!1sen!2sid!4v1661404167976!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>";
-      timetovisit.setText("November to March");
-      duration.setText("2 Days");
-      mainimage.setImageResource(R.drawable.amatipng);
-      rating.setText(" ");
-      lokasi.setText("Batam Center, Batam Kota");
+          "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15956.045089018658!2d104.1284838!3d1.1524394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73ab5d93ef9c57fe!2sRoemah%20Pohon!5e0!3m2!1sen!2sid!4v1665840580121!5m2!1sen!2sid";
+      timetovisit.setText("October to Mwarch");
+      duration.setText("Location");
+      mainimage.setImageResource(R.drawable.roemah_pohon);
+      rating.setText("4.5 \n350 Reviews");
+      pricerange.setText("50-150 K");
     }
     if (city_str.equals("Kasta")) {
       city.setText("Amritsar, Punjab");
